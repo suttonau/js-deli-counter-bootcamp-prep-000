@@ -1,11 +1,13 @@
+
 function takeANumber(line) {
   var newPerson = (line.length + 1)
   var welcomeMessage = "Welcome, You are number "+ (line.length + 1) + " in line.";
   
   line.push(newPerson);
+  
   return welcomeMessage;
   
-  
+  line[-1]
 }
 
 
