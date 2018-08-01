@@ -10,7 +10,6 @@ function takeANumber(line) {
   line[-1]
 }
 
-
  function nowServing(line) {
   if(line.length !== 0) {
     var temp = line[0]
