@@ -4,6 +4,8 @@ function takeANumber(line) {
   
   line.push(newPerson);
   return welcomeMessage;
+  
+  
 }
 
 
